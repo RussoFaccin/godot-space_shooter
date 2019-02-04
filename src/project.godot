@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="Space Shooter"
+run/main_scene="res://_Assets/Scenes/Root.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=600
+window/size/height=900
+
+[layer_names]
+
+3d_physics/layer_1="Player"
+3d_physics/layer_2="Bolts"
+3d_physics/layer_3="Enemies"
+3d_physics/layer_4="Boundary"
+
+[physics]
+
+3d/physics_engine="Bullet"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
