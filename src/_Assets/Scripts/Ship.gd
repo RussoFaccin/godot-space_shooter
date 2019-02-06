@@ -8,11 +8,11 @@ var boltPref
 var now = 0
 var fireRate = 0.25
 
-export var boundary = {
+var boundary = {
 	"xMin": -6,
 	"xMax": 6,
-	"zMin": -12,
-	"zMax": 2
+	"zMin": -6,
+	"zMax": 10
 }
 
 var movement = Vector3()

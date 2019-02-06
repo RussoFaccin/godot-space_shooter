@@ -66,8 +66,9 @@ size = Vector2( 1, 1 )
 radius = 0.0890519
 height = 0.507782
 
-[node name="Bolt" type="Area"]
+[node name="Bolt" type="Area" index="0"]
 
+editor/display_folded = true
 input_ray_pickable = false
 input_capture_on_drag = false
 space_override = 0

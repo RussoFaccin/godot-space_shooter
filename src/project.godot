@@ -23,7 +23,7 @@ window/size/height=900
 
 3d_physics/layer_1="Player"
 3d_physics/layer_2="Bolts"
-3d_physics/layer_3="Enemies"
+3d_physics/layer_3="Asteroids"
 3d_physics/layer_4="Boundary"
 
 [physics]
