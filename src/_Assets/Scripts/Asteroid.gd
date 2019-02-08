@@ -4,6 +4,7 @@ export (int) var TUMBLE
 export (int) var SPEED
 
 func _ready():
+	randomize()
 	angular_velocity = getRandVect3() * TUMBLE
 	linear_velocity = Vector3(0, 0, 1) * SPEED
 	
